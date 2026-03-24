@@ -1,16 +1,25 @@
 fileFormatVersion: 2
-guid: f4e8b3bbf36752a4791f845185207f1b
+guid: 3837d5e1cdc03c64d95f361de7858576
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8572224160831420631
-    second: Fall_KG_1_0
+      213: -291616837440145906
+    second: Jump_KG_1_0
   - first:
-      213: 1175899663943396705
-    second: Fall_KG_1_1
+      213: 5306549321057327199
+    second: Jump_KG_1_1
   - first:
-      213: 6242596449999398337
-    second: Fall_KG_1_2
+      213: 2470509693834024690
+    second: Jump_KG_1_2
+  - first:
+      213: 4459964307562934422
+    second: Jump_KG_1_3
+  - first:
+      213: 6641587003675038938
+    second: Jump_KG_1_4
+  - first:
+      213: 6993235052129721924
+    second: Jump_KG_1_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -43,7 +52,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -119,7 +128,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Fall_KG_1_0
+      name: Jump_KG_1_0
       rect:
         serializedVersion: 2
         x: 0
@@ -134,14 +143,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9274f961b87590980800000000000000
-      internalID: -8572224160831420631
+      spriteID: e067bd90808f3fbf0800000000000000
+      internalID: -291616837440145906
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fall_KG_1_1
+      name: Jump_KG_1_1
       rect:
         serializedVersion: 2
         x: 100
@@ -156,14 +165,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 16de8d0a382a15010800000000000000
-      internalID: 1175899663943396705
+      spriteID: f5856b00e76a4a940800000000000000
+      internalID: 5306549321057327199
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fall_KG_1_2
+      name: Jump_KG_1_2
       rect:
         serializedVersion: 2
         x: 200
@@ -178,8 +187,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1c52456856822a650800000000000000
-      internalID: 6242596449999398337
+      spriteID: 2f6d22b2a73094220800000000000000
+      internalID: 2470509693834024690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_KG_1_3
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0
+        width: 100
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 690b53768e9f4ed30800000000000000
+      internalID: 4459964307562934422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_KG_1_4
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 100
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad4d6e2f038ab2c50800000000000000
+      internalID: 6641587003675038938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_KG_1_5
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 0
+        width: 100
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44e90096a36fc0160800000000000000
+      internalID: 6993235052129721924
       vertices: []
       indices: 
       edges: []
@@ -188,7 +263,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: e6b15db183081b344875e253578d42dc
+    spriteID: 5b74246c517b97b4caada13737598f43
     internalID: 0
     vertices: []
     indices: 
@@ -198,11 +273,14 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":3.0,"y":1.0},"gridSpriteSize":{"x":100.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":6.0,"y":1.0},"gridSpriteSize":{"x":100.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Fall_KG_1_0: -8572224160831420631
-      Fall_KG_1_1: 1175899663943396705
-      Fall_KG_1_2: 6242596449999398337
+      Jump_KG_1_0: -291616837440145906
+      Jump_KG_1_1: 5306549321057327199
+      Jump_KG_1_2: 2470509693834024690
+      Jump_KG_1_3: 4459964307562934422
+      Jump_KG_1_4: 6641587003675038938
+      Jump_KG_1_5: 6993235052129721924
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
